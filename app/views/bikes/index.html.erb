@@ -1,0 +1,10 @@
+<h1>List of all bikes</h1>
+<h3>If this view changes, the cache will be expired as well</h3>
+<%# @bikes.each do |bike| %>
+<%# cache bike do %>
+<%#= render bike %>
+<%# end %>
+<%# end %>
+
+<!--Collection caching, it will fetch all the views at once, instead of loading them 1 by 1 => Much faster-->
+<%= render partial: 'bikes/bike', collection: @bikes, cached: true %>

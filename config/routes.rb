@@ -4,4 +4,7 @@ Rails.application.routes.draw do
   get '/page_caching', to: 'page_caching#show'
   root to: "home#index"
   get '/home/show', to: 'home#show'
+
+  get '/bikes', to: 'bikes#index'
+  get '/users', to: 'users#index'
 end

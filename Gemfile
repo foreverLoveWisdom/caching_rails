@@ -34,6 +34,7 @@ group :development, :test do
   gem 'actionpack-page_caching'
   gem 'actionpack-action_caching'
   gem 'devise'
+  gem 'faker'
 end
 
 group :development do
