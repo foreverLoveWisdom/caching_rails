@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  model: MyString
+  power: 1.5
+  torque: 1.5
+  engine: 1
+
+two:
+  model: MyString
+  power: 1.5
+  torque: 1.5
+  engine: 1
